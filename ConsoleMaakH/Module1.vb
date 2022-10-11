@@ -39,7 +39,7 @@
 ' 21/5/2013  volgorde van uitvoer gewijzigd in PB,PG,SS 
 ' 13/5/2016 aanpassing netwerk locatie waar files worden weggeschreven
 ' 11/10/2022 aanpassing Cloud netwerk locaties
-'             public URL  https://github.com/fjodor069/MaakH
+'             public URL  https://github.com/fjodor069/ConsoleMaakH
 '           integratie boor cyclus BCYCLUS.TXT in string array
 '           toevoeging DEBUG compiler constants
 ' ----------------------------------------------------------------------
@@ -139,7 +139,7 @@ Module Module1
         Console.WriteLine("| datum     : {0,45}                     | ", "11-10-2022")
         'Console.WriteLine("| datum     : {0,45}                     | ", Microsoft.VisualBasic.DateString.ToString())
 
-        Console.WriteLine("| URL       : {0,45}                     | ", "https://github.com/fjodor069/MaakH")
+        Console.WriteLine("| URL       : {0,45}                     | ", "https://github.com/fjodor069/ConsoleMaakH")
 
         Console.WriteLine("| OS        : {0,45}                     | ", My.Computer.Info.OSFullName)
 
